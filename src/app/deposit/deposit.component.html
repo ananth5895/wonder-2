@@ -1,0 +1,32 @@
+<div class="container" style="width: 350px;">
+<h1>DEPOSIT</h1>
+
+    <div class="mb-3">
+        <label for="investamount" class="form-label">Invest Amount</label>
+        <input type="text" class="form-control" name="" id="investamount" placeholder="" #investAmount>
+    </div>
+    <div class="mb-3">
+        <label for="duration" class="form-label">Duration</label>
+        <input type="text" class="form-control" name="" id="duration" placeholder="" #durations>
+    </div>
+    <div>
+        <div class="mb-3">
+            <label for="interests" class="form-label">Interest</label>
+            <select class="form-control" name="" id="interests" #interest>
+                <option value="4">4</option>
+                <option value="6">6</option>
+                <option value="8">8</option>
+            </select>
+        </div>
+        <button type="text" class="btn btn-primary"
+            (click)="calculateValue(investAmount.value, durations.value, interest.value)">calculate</button>
+        <div>
+            <div class="total">
+                <h3>Simple: <span>&#8377;</span>{{ total1 }}</h3>
+            </div>
+            <div class="total">
+                <h3>Compound: <span>&#8377;</span>{{ total2 }}</h3>
+            </div>
+        </div>
+    </div>
+</div>

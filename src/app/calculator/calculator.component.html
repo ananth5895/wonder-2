@@ -1,0 +1,28 @@
+<h1 style="text-align: center; margin-bottom: 30px;">EMI CALCULATOR </h1>
+
+<div class="container" style="width: 400px;">
+    <!-- <h1></h1> -->
+
+    <div class="mb-3">
+        <label for="principle-amount" class="form-label">Principle Amount</label>
+        <input type="text" class="form-control" name="" id="principle-amount" placeholder="" #personalAmount>
+    </div>
+    <div class="mb-3">
+        <label for="duration" class="form-label">Duration</label>
+        <input type="text" class="form-control" name="" id="duration" placeholder="" #durations>
+    </div>
+    <div class="mb-3">
+        <label for="loan-type" class="form-label">Loan-Type</label>
+        <select class="form-control" id="loan-type" #loanTypes>
+            <option value="8">Car loan</option>
+            <option value="7">Home loan</option>
+            <option value="10">Personal Loan</option>
+        </select>
+    </div>
+    <button type="button" class="btn btn-primary"
+        (click)="calculateResult(personalAmount.value, durations.value, loanTypes.value )">Sumbit</button>
+    <button type="button" class="btn btn-success"> cancel</button>
+
+    <h2>EMI :{{emi}}</h2>
+    <h2>TOTAL : {{total}}</h2>
+</div>

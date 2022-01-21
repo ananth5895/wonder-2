@@ -1,0 +1,74 @@
+.section-1 h1{
+ color: red;
+ font-weight: 900;
+ font-size: 70px;
+ padding-top: 50px;
+}
+.section-1 p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.btn-1{
+    margin-left: 230px;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+
+/* section2 */
+.section-2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.section-2 h1{
+    color: red;
+ font-weight: 900;
+ font-size: 70px;
+ border-bottom: 4px solid #474343;
+ padding-bottom: 15px;
+}
+.section-2 p{
+    font-size: 30px;
+    font-weight: 700;   
+}
+
+/* section3-1 */
+
+
+.section3-1{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+
+/* section-4 */
+
+
+.section-4 h1{
+    text-align: center;
+    color: red;
+    font-weight: 900;
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+.section-4{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+/* section-5 */
+
+.section-5{
+    margin-bottom: 80px;
+}
+.section-5 h1{
+    text-align: center;
+    color: red;
+    font-weight: 900;
+    font-size: 70px;
+}
+.space{
+    margin-top: 40px;
+}
